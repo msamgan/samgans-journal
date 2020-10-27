@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\TagController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/{post}', [PostController::class, 'post'])->name('post');
+Route::get('/tag/{tag}', [TagController::class, 'posts'])->name('tag.posts');

@@ -169,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603794162638</updated>
       <workItem from="1603794163656" duration="10150000" />
-      <workItem from="1603821518081" duration="2374000" />
+      <workItem from="1603821518081" duration="3697000" />
     </task>
     <servers />
   </component>
@@ -177,22 +177,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1824" height="275" key="GridCell.Tab.0.bottom" timestamp="1603809747782">
-      <screen x="50" y="145" width="1870" height="1053" />
+    <state x="719" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603825066723">
+      <screen x="52" y="27" width="1868" height="1053" />
+    </state>
+    <state x="719" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/52.27.1868.1053@52.27.1868.1053" timestamp="1603825066723" />
+    <state width="1822" height="275" key="GridCell.Tab.0.bottom" timestamp="1603824095068">
+      <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state width="1824" height="275" key="GridCell.Tab.0.bottom/50.145.1870.1053/1920.0.1920.1080@50.145.1870.1053" timestamp="1603809747782" />
-    <state width="1824" height="275" key="GridCell.Tab.0.center" timestamp="1603809747781">
-      <screen x="50" y="145" width="1870" height="1053" />
+    <state width="1822" height="275" key="GridCell.Tab.0.bottom/52.27.1868.1053@52.27.1868.1053" timestamp="1603824095068" />
+    <state width="1822" height="275" key="GridCell.Tab.0.center" timestamp="1603824095067">
+      <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state width="1824" height="275" key="GridCell.Tab.0.center/50.145.1870.1053/1920.0.1920.1080@50.145.1870.1053" timestamp="1603809747781" />
-    <state width="1824" height="275" key="GridCell.Tab.0.left" timestamp="1603809747781">
-      <screen x="50" y="145" width="1870" height="1053" />
+    <state width="1822" height="275" key="GridCell.Tab.0.center/52.27.1868.1053@52.27.1868.1053" timestamp="1603824095067" />
+    <state width="1822" height="275" key="GridCell.Tab.0.left" timestamp="1603824095067">
+      <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state width="1824" height="275" key="GridCell.Tab.0.left/50.145.1870.1053/1920.0.1920.1080@50.145.1870.1053" timestamp="1603809747781" />
-    <state width="1824" height="275" key="GridCell.Tab.0.right" timestamp="1603809747782">
-      <screen x="50" y="145" width="1870" height="1053" />
+    <state width="1822" height="275" key="GridCell.Tab.0.left/52.27.1868.1053@52.27.1868.1053" timestamp="1603824095067" />
+    <state width="1822" height="275" key="GridCell.Tab.0.right" timestamp="1603824095067">
+      <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state width="1824" height="275" key="GridCell.Tab.0.right/50.145.1870.1053/1920.0.1920.1080@50.145.1870.1053" timestamp="1603809747782" />
+    <state width="1822" height="275" key="GridCell.Tab.0.right/52.27.1868.1053@52.27.1868.1053" timestamp="1603824095067" />
     <state x="781" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1603823131832">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
@@ -201,10 +209,10 @@
       <screen x="50" y="145" width="1870" height="1053" />
     </state>
     <state x="675" y="381" width="620" height="580" key="find.popup/50.145.1870.1053/1920.0.1920.1080@50.145.1870.1053" timestamp="1603808489443" />
-    <state x="649" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1603822720387">
+    <state x="649" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1603825054784">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="648" y="377" width="672" height="678" key="search.everywhere.popup/50.145.1870.1053/1920.0.1920.1080@50.145.1870.1053" timestamp="1603809034456" />
-    <state x="649" y="259" width="672" height="678" key="search.everywhere.popup/52.27.1868.1053@52.27.1868.1053" timestamp="1603822720387" />
+    <state x="649" y="259" width="672" height="678" key="search.everywhere.popup/52.27.1868.1053@52.27.1868.1053" timestamp="1603825054784" />
   </component>
 </project>

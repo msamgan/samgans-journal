@@ -22,6 +22,6 @@ class Post extends WinkPost
     {
         return Post::query()
             ->published()
-            ->paginate(2);
+            ->paginate(4);
     }
 }

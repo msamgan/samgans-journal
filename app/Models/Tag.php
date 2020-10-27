@@ -13,7 +13,10 @@ class Tag extends WinkTag
      */
     public static function uniqueTags()
     {
-        return Tag::query()->latest()->get()->unique('name');
+        return Tag::query()
+            ->get()
+            ->unique('name')
+            ->sortBy('name');
     }
 
     /**

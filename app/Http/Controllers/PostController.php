@@ -6,6 +6,7 @@ use App\Models\Post;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\View\View;
+use Wink\WinkAuthor;
 
 class PostController extends Controller
 {
@@ -19,8 +20,10 @@ class PostController extends Controller
      */
     public function listing()
     {
+        $authorSamgan = WinkAuthor::first();
         return view('blog')->with([
-            'posts' => Post::publishedPosts()
+            'posts' => Post::publishedPosts(),
+            'authorSamgan' => $authorSamgan
         ]);
     }
 

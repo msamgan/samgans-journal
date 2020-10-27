@@ -169,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603794162638</updated>
       <workItem from="1603794163656" duration="10150000" />
-      <workItem from="1603821518081" duration="1338000" />
+      <workItem from="1603821518081" duration="2374000" />
     </task>
     <servers />
   </component>
@@ -193,6 +193,10 @@
       <screen x="50" y="145" width="1870" height="1053" />
     </state>
     <state width="1824" height="275" key="GridCell.Tab.0.right/50.145.1870.1053/1920.0.1920.1080@50.145.1870.1053" timestamp="1603809747782" />
+    <state x="781" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1603823131832">
+      <screen x="52" y="27" width="1868" height="1053" />
+    </state>
+    <state x="781" y="479" width="399" height="156" key="NewPhpFileDialog/52.27.1868.1053@52.27.1868.1053" timestamp="1603823131832" />
     <state x="675" y="381" width="620" height="580" key="find.popup" timestamp="1603808489443">
       <screen x="50" y="145" width="1870" height="1053" />
     </state>

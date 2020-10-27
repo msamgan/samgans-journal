@@ -22,5 +22,7 @@
 </div>
 
 @include('partials.front.footer')
+
+@stack('script')
 </body>
 </html>

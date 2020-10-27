@@ -12,7 +12,7 @@
                         {!! $authorSamgan->bio  !!}
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img src="https://secure.gravatar.com/avatar/c2acbea3e046c1b8cf7358d8526eda63?s=180"
+                        <img src="https://secure.gravatar.com/avatar/c2acbea3e046c1b8cf7358d8526eda63?s=240"
                              alt="mohd-samgan-khan">
                     </div>
                 </div>

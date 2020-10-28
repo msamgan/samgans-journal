@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{{ asset('css/all.css') }}" rel="stylesheet">
+    <script async src="https://cse.google.com/cse.js?cx=0b2263754f91e5d8f"></script>
 </head>
 <body>
 <div class="container-fluid container-width mt-4">
@@ -22,7 +23,6 @@
 </div>
 
 @include('partials.front.footer')
-
 @stack('script')
 </body>
 </html>

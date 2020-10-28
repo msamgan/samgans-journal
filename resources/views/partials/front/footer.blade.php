@@ -6,6 +6,9 @@
             @endforeach
         </nav>
     </div>
+    <div class="container-fluid w-50">
+        <div class="gcse-search"></div>
+    </div>
     <p>
         Created with Love by <a href="https://github.com/msamgan" target="_blank">msamgan</a>
         <br>

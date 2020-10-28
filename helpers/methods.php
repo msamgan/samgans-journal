@@ -12,7 +12,7 @@ if (!function_exists('comaSeparateTags')) {
             $tagString[] = '<a href="' . url('tag/' . $tag->slug) . '" >#' . $tag->name . '</a>';
         }
 
-        return implode(', ', $tagString);
+        return implode(' ', $tagString);
     }
 }
 

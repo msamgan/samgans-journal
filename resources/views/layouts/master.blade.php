@@ -30,6 +30,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet"
           href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <div class="container-fluid container-width mt-4">
@@ -43,7 +45,6 @@
 @include('partials.front.footer')
 
 <script async src="https://cse.google.com/cse.js?cx=0b2263754f91e5d8f"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
 @stack('script')
 </body>
 </html>

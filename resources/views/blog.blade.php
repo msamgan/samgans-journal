@@ -30,7 +30,7 @@
                             {!! comaSeparateTags($post->tags) !!}
                         </p>
                         <a href="{{ url($post->slug) }}">
-                            <h3 class="mb-2">{{ $post->title }}</h3>
+                            <h3 class="mb-2 listing-blog-title">{{ $post->title }}</h3>
                         </a>
                         <p class="card-text mb-auto pb-1">
                             {{ $post->excerpt }}

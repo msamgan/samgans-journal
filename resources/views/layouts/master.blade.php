@@ -24,6 +24,19 @@
     <meta name="msapplication-TileImage" content="{{ asset('favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
+    <meta name="twitter:title" content="Dispatching Unique Jobs to Laravel Queues - Diving Laravel ">
+    <meta name="og:title" content="Dispatching Unique Jobs to Laravel Queues - Diving Laravel ">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="With a few simple changes, we are going to ensure only a single instance of a given job exists in the queue at any given time.">
+    <meta name="twitter:site" content="@themsaid">
+    <meta name="twitter:image" content="https://divinglaravel.com/dispatching-unique-jobs-to-laravel-queues/image.png">
+
+    <meta name="og:site_name" content="Diving Laravel">
+    <meta name="og:image" content="https://divinglaravel.com/dispatching-unique-jobs-to-laravel-queues/image.png">
+    <meta name="og:type" content="website">
+    <meta name="og:locale" content="en_US">
+
     <title>Samgan's Journal - @yield('title')</title>
 
     <link href="{{ asset('css/all.css') }}" rel="stylesheet">

@@ -4,7 +4,7 @@ body {
 }
 
 p, li {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .bd-placeholder-img {
@@ -152,7 +152,7 @@ p, li {
 */
 a {
     text-decoration: none !important;
-    color: black;
+    color: #922e2e;
 }
 
 .page-item.active .page-link {
@@ -180,9 +180,14 @@ a {
 }
 
 .author-img {
-    margin-top: 38px;
+    margin-top: 80px;
 }
 
 .listing-blog-title {
     font-size: 32px;
+}
+
+pre {
+    background: #f9f9f9;
+    padding: 20px;
 }

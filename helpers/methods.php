@@ -9,7 +9,7 @@ if (!function_exists('comaSeparateTags')) {
     {
         $tagString = [];
         foreach ($tags as $tag) {
-            $tagString[] = '<a href="' . url('tag/' . $tag->slug) . '" >' . ucwords($tag->name) . '</a>';
+            $tagString[] = '<a href="' . url('tag/' . $tag->slug) . '" >#' . $tag->name . '</a>';
         }
 
         return implode(', ', $tagString);

@@ -27,7 +27,7 @@
     <title>Samgan's Journal - @yield('title')</title>
 
     <link href="{{ asset('css/all.css') }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet"
           href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
@@ -44,7 +44,6 @@
 
 @include('partials.front.footer')
 
-<script async src="https://cse.google.com/cse.js?cx=0b2263754f91e5d8f"></script>
 @stack('script')
 </body>
 </html>

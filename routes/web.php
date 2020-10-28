@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\TagController;
@@ -24,3 +25,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/{post}', [PostController::class, 'post'])->name('post');
 Route::get('/tag/{tag}', [TagController::class, 'posts'])->name('tag.posts');
 Route::get('/page/{page}', [PageController::class, 'page'])->name('page');
+Route::get('/author/{author}', [AuthorController::class, 'authorPage'])->name('author.page');

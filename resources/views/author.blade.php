@@ -3,22 +3,17 @@
 @section('title', 'Home')
 
 @section('content')
-    <div class="row mb-2 mt-5">
-        <div class="col-md-12 blog-main">
-            <h6 class="pb-4 mb-4 border-bottom">
-                {!! comaSeparateTags($post->tags)  !!}
-            </h6>
-            <div class="blog-post">
-                <h2 class="blog-post-title">{{ $post->title }}</h2>
-                <p class="blog-post-meta mt-2">{{ formatDate($post->created_at) }} by
-                    <a href="{{ url('author/' . $post->author->slug) }}">
-                        {{ $post->author->name }}
-                    </a>
-                </p>
-
-                {!! $post->body  !!}
-
-                <div id="graphcomment"></div>
+    <div class="row author-box">
+        <div class="col-md-12">
+            <div class="row mb-3">
+                <div class="col-auto d-none d-lg-block">
+                    <img src="https://secure.gravatar.com/avatar/c2acbea3e046c1b8cf7358d8526eda63?s=150"
+                         class="rounded-circle author-img"
+                         alt="mohammed-samgan-khan">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    {!! $author->bio  !!}
+                </div>
             </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 <footer class="blog-footer">
-    <div class="nav-scroller container">
+    <div class="container">
         <nav class="nav d-flex">
             @foreach(\App\Models\Tag::uniqueTags() as $tag)
                 <a class="p-2 text-muted" href="{{ url('tag/' . $tag->slug) }}">{{ '#' . $tag->name }}</a>

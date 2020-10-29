@@ -1,5 +1,7 @@
 <?php
 
+define('PAGINATION', 10);
+
 if (!function_exists('comaSeparateTags')) {
     /**
      * @param $tags

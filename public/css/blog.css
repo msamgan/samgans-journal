@@ -157,12 +157,12 @@ a {
 
 .page-item.active .page-link {
     color: #fff;
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #922e2e;
+    border-color: #922e2e;
 }
 
 .page-link {
-    color: black;
+    color: #922e2e;
 }
 
 .zoom {
@@ -180,7 +180,7 @@ a {
 }
 
 .author-img {
-    margin-top: 80px;
+    margin-top: 32px;
 }
 
 .listing-blog-title {

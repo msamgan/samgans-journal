@@ -28,7 +28,7 @@
 
                     <div class="col p-3 d-flex flex-column position-static">
                         @if ($post->featured_image)
-                            <img alt="" class="p-4" src="{{ env('APP_URL') . '/' . $post->featured_image }}">
+                            <img alt="" class="p-4" src="{{ config('app.url') . '/' . $post->featured_image }}">
                         @endif
                         <div class="mb-1 text-muted">{{ formatDate($post->updated_at) }}</div>
                         <p class="d-inline-block mb-2 text-primary">

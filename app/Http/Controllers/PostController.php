@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Author;
 use App\Models\Post;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
@@ -20,10 +21,9 @@ class PostController extends Controller
      */
     public function listing()
     {
-        $authorSamgan = WinkAuthor::first();
         return view('blog')->with([
             'posts' => Post::publishedPosts(),
-            'authorSamgan' => $authorSamgan
+            'authorSamgan' => Author::first()
         ]);
     }
 

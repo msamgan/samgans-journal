@@ -4,8 +4,8 @@
             <a class="blog-header-logo text-dark" href="{{ route('listing') }}">Samgan's Journal</a>
         </div>
         <div class="col-6 d-flex justify-content-end align-items-center">
-            @foreach(\App\Models\Page::all() as $page)
-                <a class="ml-4" href="{{ url('page/' . $page->slug) }}">{{ ucwords($page->title) }}</a>
+            @foreach(\App\Models\Page::all()->sortBy('title') as $page)
+                <a class="ml-4" href="{{ url('page/' . $page->slug) }}">{{ strtoupper($page->title) }}</a>
             @endforeach
         </div>
     </div>

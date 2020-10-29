@@ -7,6 +7,11 @@ p, li {
     font-size: 20px;
 }
 
+h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -175,8 +180,8 @@ a {
 }
 
 #graphcomment {
-    float: left;
-    width: 75%;
+    /*float: left;*/
+    width: 100%;
 }
 
 .author-img {

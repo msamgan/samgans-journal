@@ -10,8 +10,8 @@
             </h6>
             <div class="blog-post">
                 <h2 class="blog-post-title">{{ $post->title }}</h2>
-                <p class="blog-post-meta mt-2">{{ formatDate($post->updated_at) }} by
-                    <a href="{{ url('author/' . $post->author->slug) }}">
+                <p class="blog-post-meta mt-2">{{ formatDate($post->publish_date) }} by
+                    <a href="{{ url('page/about') }}">
                         {{ $post->author->name }}
                     </a>
                 </p>

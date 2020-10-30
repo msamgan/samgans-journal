@@ -4,7 +4,6 @@ use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\TagController;
-use App\Models\Tag;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,14 +30,10 @@ Route::get('/author/{author}', [AuthorController::class, 'authorPage'])->name('a
 /**
  * redirecting category links to tag.
  */
-Route::get('category/{tag}', function (Tag $tag) {
-    return redirect('/tag/' . $tag->slug);
-});
+Route::get('category/{tag}', [TagController::class, 'categoryToTag']);
 
 /**
  * redirecting sub category links to tag.
  */
-Route::get('category/{tagPrimary}/{tag}', function (Tag $tagPrimary, Tag $tag) {
-    return redirect('/tag/' . $tag->slug);
-});
+Route::get('category/{tagPrimary}/{tag}', [TagController::class, 'categoryToSubTag']);
 

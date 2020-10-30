@@ -22,7 +22,7 @@ class Post extends WinkPost
     {
         return Post::query()
             ->published()
-            ->orderBy('updated_at', 'DESC')
+            ->orderBy('publish_date', 'DESC')
             ->paginate(PAGINATION);
     }
 }

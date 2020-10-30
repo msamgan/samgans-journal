@@ -34,6 +34,6 @@ class GenerateSiteMap extends Command
 
     public function handle()
     {
-        SitemapGenerator::create(config('app.url'))->getSitemap()->writeToDisk('public', 'sitemap.xml');
+        SitemapGenerator::create(config('app.url'))->getSitemap()->writeToFile(public_path('sitemap.xml'));
     }
 }

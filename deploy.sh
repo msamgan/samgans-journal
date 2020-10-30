@@ -2,9 +2,9 @@
 php artisan down
 
 # Pull the latest changes from the git repository
-# git reset --hard
-# git clean -df
-#git pull origin master
+git reset --hard
+git clean -df
+git pull origin main
 
 # Install/update composer dependecies
 composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev

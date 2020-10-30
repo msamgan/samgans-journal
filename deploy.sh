@@ -6,7 +6,7 @@ git reset --hard
 git clean -df
 git pull origin main
 
-# Install/update composer dependecies
+# Install/update composer dependencies
 composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
 
 # Run database migrations

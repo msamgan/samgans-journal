@@ -58,5 +58,8 @@
 @include('partials.front.footer')
 
 @stack('script')
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f9c7c9924fb2fd5"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
             @endforeach
         </nav>
     </div>
-    <p>
+    <p class="mt-3">
         Created with Love by <a  href="https://github.com/msamgan" rel="noopener" target="_blank">msamgan</a>
         <br>
         This site was built using <a href="https://github.com/themsaid/wink" rel="noopener" target="_blank">Wink</a>

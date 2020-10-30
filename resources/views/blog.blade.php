@@ -25,10 +25,9 @@
         @foreach($posts as $post)
             <div class="col-md-12 zoom">
                 <div class="row no-gutters border rounded  mb-4 shadow-sm">
-
                     <div class="col p-3 d-flex flex-column position-static">
                         @if ($post->featured_image)
-                            <img alt="" class="p-4" src="{{ config('app.url') . '/' . $post->featured_image }}">
+                            <img alt="" class="p-4 blog-img-height" src="{{ config('app.url') . '/' . $post->featured_image }}">
                         @endif
                         <div class="mb-1 text-muted">{{ formatDate($post->publish_date) }}</div>
                         <p class="d-inline-block mb-2 text-primary">

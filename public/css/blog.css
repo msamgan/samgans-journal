@@ -7,9 +7,17 @@ p, li {
     font-size: 20px;
 }
 
+li {
+    margin-top: 0.3rem;
+}
+
 h2, h3 {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.ql-indent-1 {
+    margin-left: 2rem;
 }
 
 .bd-placeholder-img {
@@ -196,4 +204,8 @@ pre {
     background: #f9f9f9;
     padding: 10px 10px 10px 25px;
     font-size: 20px;
+}
+
+.blog-img-height {
+    max-height: 300px;
 }

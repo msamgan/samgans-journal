@@ -3,7 +3,6 @@
 @section('title', 'Home')
 
 @section('content')
-
     @if (isset($authorSamgan))
         <div class="row author-box">
             <div class="col-md-12">
@@ -20,7 +19,6 @@
             </div>
         </div>
     @endif
-
     <div class="row mb-2 mt-2">
         @foreach($posts as $post)
             <div class="col-md-12 zoom">
@@ -35,7 +33,7 @@
                             {!! comaSeparateTags($post->tags) !!}
                         </p>
                         <a href="{{ url($post->slug) }}">
-                            <h3 class="mb-2 listing-blog-title">{{ $post->title }}</h3>
+                            <h1 class="mb-2 listing-blog-title">{{ $post->title }}</h1>
                         </a>
                         <p class="card-text mb-auto pb-1">
                             {{ $post->excerpt }}

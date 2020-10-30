@@ -28,7 +28,8 @@
     <meta name="og:title" content="Dispatching Unique Jobs to Laravel Queues - Diving Laravel ">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="With a few simple changes, we are going to ensure only a single instance of a given job exists in the queue at any given time.">
+    <meta name="twitter:description"
+          content="With a few simple changes, we are going to ensure only a single instance of a given job exists in the queue at any given time.">
     <meta name="twitter:site" content="@themsaid">
     <meta name="twitter:image" content="https://divinglaravel.com/dispatching-unique-jobs-to-laravel-queues/image.png">
 
@@ -45,6 +46,18 @@
           href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107487964-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-107487964-1');
+    </script>
 </head>
 <body>
 <div class="container-fluid container-width mt-4">

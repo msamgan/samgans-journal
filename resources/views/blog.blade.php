@@ -2,6 +2,8 @@
 
 @section('title', 'Home')
 
+@section('metaDescription', 'blog list')
+
 @section('content')
     @if (isset($authorSamgan))
         <div class="row author-box">

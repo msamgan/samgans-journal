@@ -39,18 +39,21 @@
           href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.1/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+
+    @if(config('app.env') === 'production')
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107487964-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107487964-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+            function gtag() {
+                dataLayer.push(arguments);
+            }
 
-        gtag('js', new Date());
-        gtag('config', 'UA-107487964-1');
-    </script>
+            gtag('js', new Date());
+            gtag('config', 'UA-107487964-1');
+        </script>
+    @endif
 </head>
 <body>
 <div class="container-fluid container-width mt-4">
@@ -65,7 +68,9 @@
 
 @stack('script')
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f9c7c9924fb2fd5"></script>
+@if(config('app.env') === 'production')
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f9c7c9924fb2fd5"></script>
+@endif
 </body>
 </html>

@@ -37,9 +37,11 @@
                         <a href="{{ url($post->slug) }}">
                             <h1 class="mb-2 listing-blog-title">{{ $post->title }}</h1>
                         </a>
-                        <p class="card-text mb-auto pb-1">
-                            {{ $post->excerpt }}
-                        </p>
+                        @if($post->excerpt)
+                            <p class="card-text mb-auto pb-1">
+                                {{ $post->excerpt }}
+                            </p>
+                        @endif
                         <div class="mb-1 text-muted">Reading time: {{ readingTime($post->body) }}</div>
                     </div>
                 </div>

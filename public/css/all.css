@@ -23,6 +23,10 @@ h2, h3 {
     margin-bottom: 20px;
 }
 
+img {
+    width: 100% !important;
+}
+
 .ql-indent-1 {
     margin-left: 2rem;
 }

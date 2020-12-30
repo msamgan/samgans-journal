@@ -54,6 +54,8 @@
             gtag('config', 'UA-107487964-1');
         </script>
     @endif
+
+    @include('feed::links')
 </head>
 <body>
 <div class="container-fluid container-width mt-4">

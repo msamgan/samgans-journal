@@ -21,6 +21,8 @@ Route::get('/', [PostController::class, 'listing'])->name('listing');
 
 Auth::routes();
 
+Route::feeds();
+
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/{post}', [PostController::class, 'post'])->name('post');
 Route::get('/tag/{tag}', [TagController::class, 'posts'])->name('tag.posts');

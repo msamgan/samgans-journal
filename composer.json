@@ -16,6 +16,7 @@
         "laravel/framework": "^7.24",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.4",
+        "spatie/laravel-feed": "^3.1",
         "spatie/laravel-sitemap": "^5.8",
         "themsaid/wink": "^1.2"
     },

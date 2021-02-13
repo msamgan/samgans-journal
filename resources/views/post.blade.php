@@ -36,6 +36,7 @@
 @stop
 
 @push('script')
+    @if(config('app.env') === 'production')
     <script type="text/javascript">
 
         /* - - - CONFIGURATION VARIABLES - - - */
@@ -60,4 +61,5 @@
         })();
 
     </script>
+    @endif
 @endpush

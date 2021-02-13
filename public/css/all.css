@@ -234,3 +234,17 @@ thead {
     font-weight: 600;
     border-bottom: 1px solid black;
 }
+
+.subscription-section #mce-EMAIL {
+    height: 48px !important;
+    width: 460px !important;
+    padding: 0px 0.6em !important;
+    font-size: 22px !important;
+}
+
+.subscription-section #mc-embedded-subscribe {
+    font-size: 24px !important;
+    height: 48px !important;
+    background-color: #922e2e !important;
+}
+

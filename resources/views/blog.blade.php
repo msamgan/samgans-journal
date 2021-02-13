@@ -6,21 +6,11 @@
 
 @section('content')
     @if (isset($authorSamgan))
-        <div class="row author-box">
-            <div class="col-md-12">
-                <div class="row mb-3">
-                    <div class="col-auto d-none d-lg-block">
-                        <img src="https://secure.gravatar.com/avatar/c2acbea3e046c1b8cf7358d8526eda63?s=150"
-                             class="rounded-circle author-img"
-                             alt="mohammed-samgan-khan">
-                    </div>
-                    <div class="col p-4 d-flex flex-column position-static">
-                        {!! $authorSamgan->bio  !!}
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('partials.front.author-box')
     @endif
+
+    @include('partials.front.subscribe')
+
     <div class="row mb-2 mt-2">
         @foreach($posts as $post)
             <div class="col-md-12 zoom">

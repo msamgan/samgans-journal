@@ -6,6 +6,7 @@
             @endforeach
         </nav>
     </div>
+    @include('partials.front.subscribe')
     <p class="mt-3">
         Created with Love by <a  href="https://github.com/msamgan" rel="noopener" target="_blank">msamgan</a>
         <br>

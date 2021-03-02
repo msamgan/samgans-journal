@@ -7,6 +7,7 @@
             @foreach(\App\Models\Page::all()->sortBy('title') as $page)
                 <a class="ml-4" href="{{ url('page/' . $page->slug) }}">{{ strtoupper($page->title) }}</a>
             @endforeach
+            <a class="ml-4" href="{{ route('projects') }}">{{ strtoupper('Projects') }}</a>
         </div>
     </div>
 </header>

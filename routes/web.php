@@ -22,6 +22,7 @@ Route::get('/', [PostController::class, 'listing'])->name('listing');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/projects', 'ProjectController@index')->name('projects');
 Route::get('/{post}', [PostController::class, 'post'])->name('post');
 Route::get('/tag/{tag}', [TagController::class, 'posts'])->name('tag.posts');
 Route::get('/page/{page}', [PageController::class, 'page'])->name('page');

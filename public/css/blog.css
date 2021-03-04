@@ -214,6 +214,10 @@ pre {
     max-height: 300px;
 }
 
+.project-img-height {
+    padding: 70px;
+}
+
 table {
     font-size: 20px;
     margin-bottom: 20px;
@@ -239,5 +243,9 @@ thead {
     font-size: 24px !important;
     height: 48px !important;
     background-color: #922e2e !important;
+}
+
+.min-h-460 {
+    min-height: 460px;
 }
 

@@ -7,18 +7,18 @@
 @section('content')
     <div class="row mb-2 mt-2">
         @foreach($projects as $project)
-            <div class="col-md-12 zoom">
+            <div class="col-md-6">
                 <div class="row no-gutters border rounded  mb-4 shadow-sm">
-                    <div class="col p-3 d-flex position-static">
+                    <div class="col p-3 d-flex flex-column position-static min-h-460">
                         @if ($project->logo_image)
-                            <img alt="{{ $project->name }}" class="p-4 w-25 blog-img-height"
+                            <img alt="{{ $project->name }}" class="project-img-height"
                                  src="{{ $project->logo_image }}">
                         @endif
                         {{--<div class="mb-1 text-muted">{{ formatDate($project->publish_date) }}</div>
                         <p class="d-inline-block mb-2 text-primary">
                             {!! comaSeparateTags($project->tags) !!}
                         </p>--}}
-                        <div class="flex-column pl-5">
+                        <div class="">
                             <a href="#{{--{{ url('project/' . $project->slug . '/details') }}--}}">
                                 <h1 class="mb-2 listing-blog-title">{{ ucwords($project->name) }}</h1>
                             </a>

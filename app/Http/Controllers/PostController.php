@@ -35,4 +35,14 @@ class PostController extends Controller
     {
         return view('post')->with(compact('post'));
     }
+
+    public function search()
+    {
+        $posts = Post::query()
+            ->whereRaw('MATCH (title, excerpt, body) AGAINST (?)' , array(request()->get('q')))
+            ->orderBy('created_at', 'DESC')
+            ->get();
+
+        return view('search')->with(compact('posts'));
+    }
 }

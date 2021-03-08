@@ -47,3 +47,18 @@ if (! function_exists('readingTime')) {
         return $est;
     }
 }
+
+if (!function_exists('highlightWords')) {
+    /**
+     * @param $text
+     * @param $word
+     * @return string|string[]|null
+     */
+    function highlightWords($text, $word){
+        return preg_replace(
+            '#'. preg_quote($word) .'#i',
+            '<span style="background-color: #F9F902; padding: 2px 5px 2px 5px;">\\0</span>',
+            $text
+        );
+    }
+}

@@ -23,6 +23,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/projects', 'ProjectController@index')->name('projects');
+Route::get('/search', [PostController::class, 'search'])->name('post.search');
 Route::get('/{post}', [PostController::class, 'post'])->name('post');
 Route::get('/tag/{tag}', [TagController::class, 'posts'])->name('tag.posts');
 Route::get('/page/{page}', [PageController::class, 'page'])->name('page');

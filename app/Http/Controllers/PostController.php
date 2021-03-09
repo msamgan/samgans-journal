@@ -33,7 +33,11 @@ class PostController extends Controller
      */
     public function post(Post $post)
     {
-        return view('post')->with(compact('post'));
+        return view('post')
+            ->with(compact('post'))
+            ->with([
+                'authorSamgan' => Author::first()
+            ]);
     }
 
     public function search()

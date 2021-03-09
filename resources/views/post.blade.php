@@ -30,6 +30,10 @@
                 {!! $post->body  !!}
 
                 <div id="graphcomment"></div>
+
+                <div>
+                    @include('partials.front.author-box')
+                </div>
             </div>
         </div>
     </div>

@@ -8,6 +8,11 @@
             </div>
             <div class="col pt-4 d-flex flex-column position-static">
                 {!! $authorSamgan->bio  !!}
+                <div>
+                    <a target="_blank" href="https://twitter.com/msamgank">twitter</a> |
+                    <a target="_blank" href="https://github.com/msamgan">github</a> |
+                    <a target="_blank" href="https://www.linkedin.com/in/mohd-samgan-khan/">linkedin</a>
+                </div>
             </div>
         </div>
     </div>
